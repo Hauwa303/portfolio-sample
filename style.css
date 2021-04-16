@@ -1,0 +1,104 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+a,a:hover{
+ text-decoration: none;
+}
+ul{
+ list-style: none;
+}
+
+.header{
+  position: relative;
+  width: 100%;
+  height:100vh ;
+  background-image: url(photo1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ 
+.header .navbar{
+  width: 100%;
+  height: 80px;
+  display: flex ;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header .navbar .logo a{
+     color:#fff;
+     font-size: 30px;
+     margin-left: 50px;
+}
+.header .navbar .menu ul{
+  margin-left: 192px;
+}
+
+.header .navbar .menu ul li{
+  display: inline-block;
+  margin-right: 35px;
+  align-items: center;
+}
+
+.header .navbar .menu ul li a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+a:hover {
+  background-color: black;
+}
+.header .banner{
+    position: absolute;
+    top: 35%;
+    left:#fff;
+
+}
+.header .banner .app-text{
+     padding-left:440px;
+     
+}
+
+.header .banner .app-text h1{
+     font-size: 80px;
+     position: relative;
+     margin-top: 30px;
+     font-weight:700;
+     line-height: 1.3;
+}
+.header .banner .app-text h1 span{
+     color: white;
+}
+
+.header .banner .app-text {
+     display: flex;
+     width: 100%;
+     position: relative;
+     margin-top: 20px;
+}
+.header .banner .app-text {
+     display: flex;
+     align-items: center;
+     transition: all 0.3s;
+
+}
+.header .banner .app-text .span {
+     font-size: 20px;
+     margin-left:24px ;
+     color: #fff;
+     cursor: pointer;
+
+}
+.header .banner .app-text  {
+     font-size: 20px;
+     margin-left:24px ;
+     color: #fff;
+     cursor: pointer;
+     
+}
