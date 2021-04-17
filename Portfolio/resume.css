@@ -1,0 +1,36 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: white;
+  font-size: 14px;
+  line-height: 22px;
+  color: black;
+  padding: 1em;
+}
+
+ .col-sm-6 {
+   font-size:30px ;
+  padding:1em ;
+  text-align: center;
+  border: 3px solid white;
+}
+
+h4{
+
+font-weight: lighter;
+text-decoration: grey;
+
+}
+
+.container{
+ 
+  padding-left: 60%  ;
+  align-items: flex-end;
+}
+
